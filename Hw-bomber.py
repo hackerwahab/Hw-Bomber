@@ -31,7 +31,7 @@ def bomber():
 
 server = raw_input ('MailServer 1.Gmail/2.Yahoo: ')
 user = raw_input('Email: ')
-passwd = raw_input('Password: ')
+passwd = getpass.getpass('Password: ')
 
 
 to = raw_input('\nTo: ')
